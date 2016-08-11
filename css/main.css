@@ -1,0 +1,62 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0;
+    padding: 0;
+    /*设置的宽高将包含 边框及 padding*/
+    box-sizing: border-box;
+}
+html{
+    font-family:Roboto,arial,"微软雅黑" ;
+}
+.bottom_fixed{
+    position: fixed;
+    z-index: 9999;
+    margin-top: -3px;
+    height: 90px;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 1px #f2f0f0 solid;
+    background: #ffffff;
+}
+.footer_box{
+    padding-top:3px ;
+    height: 87px;
+}
+ul{
+    list-style: none;
+}
+.footer_box ul li{
+    float: left;
+    width: 20%;
+}
+.footer_box a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.footer_box a p{
+    color: #777;
+    font-size: 18px;
+}
+.footer_box span{
+    position: relative;
+    display: block;
+    margin: 0 auto 1px;
+    width: 56px;
+    height: 56px;
+    background: url("http://wxtest.bqu.com/Areas/Mobile/Themes/default/Content/images/i_new/footer.png?v=1.0");
+}
+/*首页的图标*/
+.home span{
+    background-position: 0 0;
+}
+.promote span{
+    background-position: 0 -56px;
+}
+.category span{
+    background-position:0 -112px;
+}
+.car span{
+    background-position: 0 -168px;
+}
+.my span{
+    background-position: 0 -224px;
+}
